@@ -3,7 +3,7 @@
 ## Overview
 
 This is a tiny Ureal Engine Plugin/Blueprint Function Library to increase vertex density of cuboids along the longest two axes, for easier vertex painting of walls, floors, and ceilings.
-Operation is extremely simple: Load the editor widget, set the max size for subdivision side length, select cuboids in the world, click the button. It will replace selected cuboids with subdivided ones. Non-cuboids are ignored.
+Operation is extremely simple: Load the editor widget, set the max size for subdivision side length, select cuboids in the world, click the button. The selected cuboids will then be replaced with subdivided ones. Non-cuboids are ignored.
 
 ## Build & Run
 
@@ -24,3 +24,4 @@ After building, load the widget from the editor: Right click `Plugins/CuboidSubd
 ## Note
 
 This plugin started as part of a failed experiment while working on the [Viz2 Attention Tracking Tool for Architects](https://github.com/sc0000/viz2-attention-tracking).
+
