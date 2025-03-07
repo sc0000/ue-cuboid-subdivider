@@ -5,6 +5,10 @@
 This is a tiny Ureal Engine Plugin/Blueprint Function Library to increase vertex density of cuboids along the longest two axes, for easier vertex painting of walls, floors, and ceilings.
 Operation is extremely simple: Load the editor widget, set the max size for subdivision side length, select cuboids in the world, click the button. The selected cuboids will then be replaced with subdivided ones. Non-cuboids are ignored.
 
+## Demo
+
+[Demo](https://youtu.be/fS0Md-9VCQU).
+
 ## Build & Run
 
 Please note that this software has only ever been built, run, and tested on Windows 10 (64-bit).
@@ -16,10 +20,6 @@ Build and run the solution.
 Or just copy the plugin into another Unreal Engine project, and build it as part of that.
 
 After building, load the widget from the editor: Right click `Plugins/CuboidSubdivider Content/WBP_CuboidSubdivider` -> `Run Editor Utility Widget`.
-
-## Demo
-
-[Demo](https://youtu.be/fS0Md-9VCQU)
 
 ## Note
 
